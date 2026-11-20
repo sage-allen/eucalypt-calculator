@@ -194,7 +194,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "eucalypt"
+name = "eucalypt-calculator"
 version = "0.1.0"
 dependencies = [
  "ratatui",

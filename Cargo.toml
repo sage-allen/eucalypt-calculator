@@ -1,9 +1,17 @@
 [package]
-name = "eucalypt"
+name = "eucalypt-calculator"
 version = "0.1.0"
 edition = "2024"
 rust-version = "1.88"
+repository = "https://github.com/sage-allen/eucalypt-calculator"
+homepage = "https://github.com/sage-allen/eucalypt-calculator"
 description = "A full-screen scientific calculator for the terminal"
+license = "MIT"
 
 [dependencies]
 ratatui = { version = "0.30.2", default-features = false, features = ["crossterm"] }
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
