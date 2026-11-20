@@ -1,1 +1,0 @@
-/Users/sageallen/Documents/GitHub\ Repos/eucalypt-calculator/target/debug/eucalypt: /Users/sageallen/Documents/GitHub\ Repos/eucalypt-calculator/src/calculator.rs /Users/sageallen/Documents/GitHub\ Repos/eucalypt-calculator/src/main.rs
