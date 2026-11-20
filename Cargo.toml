@@ -1,0 +1,9 @@
+[package]
+name = "eucalypt"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+description = "A full-screen scientific calculator for the terminal"
+
+[dependencies]
+ratatui = { version = "0.30.2", default-features = false, features = ["crossterm"] }
